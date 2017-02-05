@@ -10,6 +10,11 @@ namespace LargestCommonEnd
     {
         static void Main(string[] args)
         {
+            string[] firstArray = Console.ReadLine().Split();
+            string[] secondArray = Console.ReadLine().Split();
+
+            int minLenght = Math.Min(firstArray.Length, secondArray.Length);
+
         }
     }
 }
